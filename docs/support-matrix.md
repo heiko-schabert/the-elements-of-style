@@ -13,6 +13,7 @@
 | opencode | full | full | partial | none | none | full |
 | pi | full | none | none | none | none | full |
 | hermes | full | none | none | none | none | full |
+| muse | full | none | none | full | none | full |
 | agent-plugins-1.0 | full | none | none | none | full | none |
 | agents-marketplace | none | none | none | none | none | none |
 

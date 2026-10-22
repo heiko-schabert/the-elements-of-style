@@ -36,6 +36,7 @@ Your agent invokes `writing-clearly-and-concisely` when it writes prose. The ski
 | OpenCode | see docs/install/opencode.md |
 | Pi | see docs/install/pi.md |
 | Hermes Agent | see docs/install/hermes.md |
+| muse | see docs/install/muse.md |
 | Agent Plugins 1.0 clients | see docs/install/agent-plugins-1.0.md |
 | Factory Droid / Grok / Copilot (marketplace descriptor) | see docs/install/agents-marketplace.md |
 

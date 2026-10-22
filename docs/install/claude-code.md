@@ -8,10 +8,22 @@
 
 ## Installing
 
-Register the marketplace, then install the plugin:
+Register the marketplace, then install the plugin.
+
+From a shell:
 
 ```
-claude /plugin marketplace add obra/elements-of-style
+claude plugin marketplace add heiko-schabert/the-elements-of-style
+```
+
+```
+claude plugin install elements-of-style@elements-of-style-dev
+```
+
+Or, inside a Claude Code session:
+
+```
+/plugin marketplace add heiko-schabert/the-elements-of-style
 ```
 
 ```

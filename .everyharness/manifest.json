@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "tool": "everyharness@0.5.0",
+  "tool": "everyharness@1.0.0",
   "files": {
     ".agents/plugins/marketplace.json": {
       "sha256": "d07f73b8110bec7921beb4c2245658c10a063b1043aba3ca5cae4676dce4c48b"
@@ -9,16 +9,16 @@
       "sha256": "30cf768a42597cee0e608ad3e35e25f74a6f132c1b8bfa03ab904337a630055f"
     },
     ".claude-plugin/plugin.json": {
-      "sha256": "5a52413201d0da827aeff104ba266ed28ce14b83bb6ecee71a2b49036b90059d"
+      "sha256": "5c1d36d2146d9ec3e5a552c8ca69db74832ae5b99c267504cc49b0cd234eeb50"
     },
     ".codex-plugin/plugin.json": {
-      "sha256": "add3c2ce53a698c20ff8bc097bcb1971ccf975b77d2f867fc91a4a077f9a282a"
+      "sha256": "8053100ddfbeaa17e988c18f69790ca181183266f9cf60c5b22bae0b8074eb32"
     },
     ".cursor-plugin/plugin.json": {
-      "sha256": "9c92c7801b1c2fd8ebe5383058cbde7e4be14fadf38041edd4fc6126a277d471"
+      "sha256": "9707401477435688d28ad48474a8d6edf336e784ed72cb9f71ff9854f1400259"
     },
     ".devin-plugin/plugin.json": {
-      "sha256": "105d9cafe72e68126182881e5937949e7170feac3f2d70d25eb302812d37e98b"
+      "sha256": "86e5c3f9b8a54780d6221b9e30765e32822d319f60d65d64a15d6a60116419d8"
     },
     ".hermes-plugin/__init__.py": {
       "sha256": "881d5c871533030533ee6103e981854f8a2b4195f2f03346398c1c44af2667f3"
@@ -27,10 +27,13 @@
       "sha256": "13a2ccb49f58fa29dd762d07215118c81dd116a7e45333c86f6e6e52aca988f8"
     },
     ".kimi-plugin/plugin.json": {
-      "sha256": "f375412487459527bcd9866d1ef4715ac138beadcb5031cc97e67243772e8047"
+      "sha256": "62b3727c906186ea37bd27ac7daedeed8472e18e1d08ea9b9004ea11cbe555ce"
+    },
+    ".muse-plugin/plugin.json": {
+      "sha256": "95e1f649b2d53afd76594eb978537a811bb93b57645af5099c45fed5c7c4e76a"
     },
     ".opencode/plugins/elements-of-style.js": {
-      "sha256": "0689ddbbb8d2d62e880bb91169277a2a1af04d31cd32d3bbadf2b2a8f001631c"
+      "sha256": "c23b5084fbfff10cd779371e808a4bb381969349160da91f3de9abf02c945869"
     },
     ".pi/extensions/elements-of-style.ts": {
       "sha256": "b84a36a276c0c1f25347eda3a4aa2b28f941c7f9859ae90304c76a3263e8824c"
@@ -42,10 +45,10 @@
       "sha256": "4fb2a0722810deca116bdcd7ae4d1736e9252c23833e83bf180a402ed6c031d1"
     },
     "docs/install/agents-marketplace.md": {
-      "sha256": "a0136a99de70cc09fc6a43410e70b36dd1bb5cef7c316b42965a23d17d60c285"
+      "sha256": "1afb728d50b4cad49b7d496d9a8d3c13e51b1217b900e1de04262f9794be93f1"
     },
     "docs/install/claude-code.md": {
-      "sha256": "a7fa417b1600c9e6c640698992f99a94f82f4280e1e4fc146acfb7ba2af48c09"
+      "sha256": "7ae427c80b8fc80ab4c8b4fc438129bee0868b2d7c71ca23c51fdaf1b7563d43"
     },
     "docs/install/codex.md": {
       "sha256": "713d446f35cfa67b08e42748982d908a9e9701728a2d3cf83eb33ee840b347b3"
@@ -54,34 +57,37 @@
       "sha256": "457c3e8c3cf12a06a12d837d307e0e02464fbd370e1bcbdae7fd237ff14eee41"
     },
     "docs/install/devin.md": {
-      "sha256": "6cc86459191921538cbc9004c4090b32215950915ca93d7259dd5713b6684a2d"
+      "sha256": "304a7a2c29847b79927100a0bfb7a7fac24142d2e7d4156ebc5e833c4ab0186c"
     },
     "docs/install/gemini.md": {
-      "sha256": "c6aeca1d5fea47874a66748cbab2ff1691b762caed8d95d50376e329655df754"
+      "sha256": "90567b788f5cf3700bc0a3bb73e354a5f1bc2bc73f0d2c9eee36e540cd6bdd03"
     },
     "docs/install/hermes.md": {
-      "sha256": "ad1824eaa118354f38130d119e950c60701fbc652d48b3c9959602cab68adbb3"
+      "sha256": "9d10e5510d7cc813aa6d0d7596a996bb6937649fe0b7c35db349524cd90141d7"
     },
     "docs/install/kimi.md": {
-      "sha256": "c136bcb390accd32bf21adf3e1e5da19bf8e2dd048f9bc0c520c2c89963e497a"
+      "sha256": "6dd55bef5fbf20b45f4f42a5ea5b67a02656c93a6175b0464e92863f66647b50"
+    },
+    "docs/install/muse.md": {
+      "sha256": "4a060d41c93af28862459618c3a663ba147594e07da52a553dbdf04715b16d10"
     },
     "docs/install/opencode.md": {
-      "sha256": "4ddab48d1db7d227706d56cb7cc1ed5f650eb569c2871f94d97f029de615b59d"
+      "sha256": "987e4bf5666a2466538bf06aa14624868b79f9494a55a5b933896b8d2850e0ce"
     },
     "docs/install/pi.md": {
-      "sha256": "dc1f3f4de3b1ba7d879563a2a1fe00fac2e283c7dfc4577631b5c8a1d88ee352"
+      "sha256": "0ad5474fe849636a3a11c8abd08fde183ba900cc488b21fde3e118ae2cc87b7e"
     },
     "docs/support-matrix.md": {
-      "sha256": "863f6d216e778e6f12d2e5fcd6676fec743f861681b97ed597f0a5993ee47117"
+      "sha256": "6e7f146b0858b0bc6782796bdf27d1680cfe7d344d6b273daef140356c6cb524"
     },
     "gemini-extension.json": {
       "sha256": "15d2b4fecb54283d3f6732fd34ee21adb5cf17bfe7e4b98b79142015783d8e41"
     },
     "package.json": {
-      "sha256": "8c0148449329d88aa79f1fb9c734e1b4d599fb3ffd3aaf110920ee422a9eabed"
+      "sha256": "b2afaa8ee203558eccc42efc30496b2fa9764699e799f668703990bd9f6fc45b"
     },
     "plugin.json": {
-      "sha256": "1093f04ee889eedb6fd1030ac7fd7a7a3fa586eba150ac493afb97f0fc1cb5d3"
+      "sha256": "3cdde62724582964a0011f1fc9d4fb5709f0bdabc25b8134d647bc24a8b7def2"
     }
   }
 }
